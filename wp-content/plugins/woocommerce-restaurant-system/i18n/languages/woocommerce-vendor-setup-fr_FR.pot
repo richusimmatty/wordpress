@@ -1,0 +1,375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-vendor-setup\n"
+"POT-Creation-Date: 2015-02-05 19:32+0600\n"
+"PO-Revision-Date: 2015-02-05 19:58+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;printf;sprintf\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../vendor_admin/admin_init/___vendor_front_view_list.php:432
+#: ../../vendor_admin/admin_init/___vendor_front_view_list.php:535
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:517
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:610
+#: ../../vendor_admin/admin_init/vendor_payment.php:179
+msgid "&laquo;"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/___vendor_front_view_list.php:433
+#: ../../vendor_admin/admin_init/___vendor_front_view_list.php:536
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:518
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:611
+#: ../../vendor_admin/admin_init/vendor_payment.php:180
+msgid "&raquo;"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/custom_product.php:11
+msgid "Vendor Setup"
+msgstr "Configuration du vendeur"
+
+#: ../../vendor_admin/admin_init/custom_product.php:45
+msgid "Select Vendor"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/custom_product.php:48
+msgid "Please Select vendor."
+msgstr ""
+
+#: ../../vendor_admin/admin_init/custom_product.php:55
+msgid "Vendor Percentage"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/custom_product.php:56
+msgid "Enter Percentage here"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/custom_product.php:59
+msgid "Enter Percentage Amount Here."
+msgstr ""
+
+#: ../../vendor_admin/admin_init/custom_product.php:66
+msgid "Note"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/custom_product.php:70
+msgid "Enter Note Here If You Have."
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:238
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:549
+#: ../../vendor_admin/admin_init/vendor_payment.php:126
+msgid "Product"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:240
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:550
+#: ../../vendor_admin/admin_init/vendor_payment.php:127
+msgid "Qty"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:241
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:462
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:551
+#: ../../vendor_admin/admin_init/vendor_payment.php:128
+msgid "Amount"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:242
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:552
+msgid "Percent"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:243
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:553
+msgid "Percent Amount"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:244
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:555
+#: ../../vendor_admin/admin_init/vendor_payment.php:130
+#: ../../vendor_admin/become_vendor/become_vendor.php:91
+msgid "Status"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:291
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:601
+msgid "You have no order for pending."
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:349
+msgid "Shipping Address"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:371
+msgid "Pending"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:372
+msgid "Delivered"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:374
+msgid "Submit"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:391
+msgid "Statistics"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:396
+msgid "Order List"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:397
+msgid "Payment Status"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:459
+msgid "Order ID"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:460
+msgid "Total Item"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:463
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:554
+#: ../../vendor_admin/admin_init/vendor_payment.php:129
+msgid "Purchase Date"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:476
+msgid "Item"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:481
+msgid "Order Details"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:544
+#: ../../vendor_admin/admin_init/vendor_payment.php:118
+msgid "Order Record of"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:556
+#: ../../vendor_admin/admin_init/vendor_payment.php:131
+msgid "Pay Date"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_front_view_list.php:637
+msgid "Please wait until admin approval"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_payment.php:187
+msgid "Pay now"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:7
+msgid "Vendors"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:8
+msgid "Vendor"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:9
+msgid "Add New Vendor"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:10
+msgid "Edit Vendor"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:28
+msgid "Category"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:38
+msgid "Vendor Options"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:85
+msgid "Vendor Name"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:86
+#: ../../vendor_admin/admin_init/vendor_product.php:90
+#: ../../vendor_admin/admin_init/vendor_product.php:94
+#: ../../vendor_admin/admin_init/vendor_product.php:98
+#: ../../vendor_admin/admin_init/vendor_product.php:102
+#: ../../vendor_admin/admin_init/vendor_product.php:106
+#: ../../vendor_admin/admin_init/vendor_product.php:110
+#: ../../vendor_admin/admin_init/vendor_product.php:114
+#: ../../vendor_admin/admin_init/vendor_product.php:118
+#: ../../vendor_admin/admin_init/vendor_product.php:122
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:89
+msgid "Company Name"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:93
+#: ../../vendor_admin/admin_init/vendor_product.php:186
+#: ../../vendor_admin/become_vendor/become_vendor.php:90
+msgid "Email"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:97
+msgid "Phone"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:101
+msgid "Fax"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:105
+msgid "Address"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:109
+msgid "Zip Code"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:113
+msgid "State"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:117
+msgid "Country"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:121
+msgid "Paypal Address"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:184
+msgid "Name"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:185
+msgid "Company"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:187
+msgid "Paypal"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:188
+#: ../../vendor_admin/become_vendor/become_vendor.php:92
+msgid "Date"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:259
+msgid "A order has been reseived, Order ID is "
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:265
+msgid "Email notification "
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:274
+msgid "New customer order"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:277
+msgid "You have received an order. Their order is as follows:"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:283
+msgid "Order"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:292
+msgid "Product Name"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:297
+msgid "Product Quantity"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:302
+msgid "Product Price"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:307
+msgid "Your Percentage"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:312
+msgid "Your Ammount"
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:323
+msgid "Please contact with stote owner for your payment."
+msgstr ""
+
+#: ../../vendor_admin/admin_init/vendor_product.php:323
+msgid "Thank you"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:83
+msgid "Approved Vendor"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:88
+msgid "User Name"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:89
+msgid "User ID"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:239
+msgid "Sorry No Data Found"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:258
+msgid "Mass Payment Settings"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:261
+msgid "Masspay API User Name"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:265
+msgid "Masspay API Password"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:269
+msgid "Masspay API Signature"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:273
+msgid "Masspay API Type"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:276
+msgid "Sandbox"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:277
+msgid "Live"
+msgstr ""
+
+#: ../../vendor_admin/become_vendor/become_vendor.php:283
+msgid "Update Settings"
+msgstr ""
+
+#: ../../vendor_frontend/vendor_frontend.php:9
+msgid "Become a Vendor"
+msgstr ""
+
+#: ../../vendor_frontend/vendor_frontend.php:19
+msgid "Please, fill in all the required fields."
+msgstr ""

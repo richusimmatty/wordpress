@@ -1,0 +1,128 @@
+/***********************************************************************
+http://function-code.blogspot.com/2013/03/horizontal-tabs-in-html-with-css.html
+My code is free to use, but not free to republish
+************************************************************************/
+ul.tabs
+{
+  padding: 7px 0;
+  font-size: 0;
+  margin:0;
+  list-style-type: none;
+  text-align: left;
+}
+
+ul.tabs li
+{
+  display: inline;
+  margin: 0;
+  margin-right:3px;
+}
+
+ul.tabs li a
+{
+  font: normal 12px Verdana;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  padding: 7px 16px;
+  border: 1px solid #CCC;
+  border-bottom-color:#B7B7B7;
+  color: #000;
+  background: #F0F0F0;
+  border-radius: 6px 6px 0px 0px;
+  -moz-border-radius: 6px 6px 0px 0px;
+  outline:none;
+}
+
+ul.tabs li a:hover
+{
+  border: 1px solid #B7B7B7;
+  background:#E0E0E0;
+}
+
+ul.tabs li.selected a
+{
+  position: relative;
+  top: 0px;
+  font-weight:bold;
+  background: white;
+  border: 1px solid #B7B7B7;
+  border-bottom-color: white;
+}
+
+div.tabcontents
+{	/*width: 400px;*/
+  border: 1px solid #B7B7B7; padding: 20px;
+  background-color:#FFF;
+  border-radius: 0 2px 2px 2px;
+}
+.entry-content .stat_display ul,.entry-content .stat_display ol
+{
+  margin:0px;		
+}
+
+.myButton {
+  -moz-box-shadow: 3px 4px 0px 0px #1564ad;
+  -webkit-box-shadow: 3px 4px 0px 0px #1564ad;
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
+  background:-moz-linear-gradient(top, #79bbff 5%, #378de5 100%);
+  background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
+  background:-o-linear-gradient(top, #79bbff 5%, #378de5 100%);
+  background:-ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+  background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+  background-color:#79bbff;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  border:1px solid #337bc4;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  /*font-size:17px;*/
+  font-weight:bold;
+  padding:2px 4px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+  background:-moz-linear-gradient(top, #378de5 5%, #79bbff 100%);
+  background:-webkit-linear-gradient(top, #378de5 5%, #79bbff 100%);
+  background:-o-linear-gradient(top, #378de5 5%, #79bbff 100%);
+  background:-ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
+  background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+  background-color:#378de5;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
+/*--------------------------------*/
+
+.woocommerce-tabs ul.tabs li a{
+  padding:5px 10px 5px 15px!important;
+  min-width: 120px;
+}
+
+.woocommerce-tabs ul.tabs{
+  margin-bottom:5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .woocommerce-tabs ul.tabs li{
+    display: inline-block!important;
+    height: 35px;
+  }
+}
+
+.wfm_name a:hover{
+  color: #666666!important;
+}
+
+

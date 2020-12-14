@@ -1,0 +1,41 @@
+
+	table.wfm_search_tb { 
+		width: 100%; 
+		border-collapse: collapse;
+    margin-top: 10px;
+	}
+	/* Zebra striping */
+	table.wfm_search_tb tr:nth-of-type(odd) { 
+		background: #F7F5E7; 
+	}
+	table.wfm_search_tb th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+	table.wfm_search_tb td, table.wfm_search_tb th {
+		padding: 6px; 
+		border: 0px solid #ccc; 
+		text-align: left; 
+	}
+  	@media only screen and (max-width: 760px),
+	(min-device-width: 768px) and (max-device-width: 1024px){
+		table.wfm_search_tb, table.wfm_search_tb th, table.wfm_search_tb td, table.wfm_search_tb tr { 
+			display: block; 
+		}
+		
+		/*table.wfm_search_tb tr { border: 1px solid #ccc; }*/
+		table.wfm_search_tb td {
+			border: none;			
+			position: relative;
+			padding-left: 2%; 
+		}
+		table.wfm_search_tb td:before {
+			position: absolute;
+			top: 6px;
+			left: 6px;
+			width: 80%; 
+			padding-right: 10px; 
+			white-space: nowrap;
+		}
+	}
