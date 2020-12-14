@@ -1379,11 +1379,9 @@ function wp_print_community_events_templates() {
 				</div>
 
 				<div class="event-date-time">
-					<span class="event-date">{{ event.user_formatted_date }}</span>
+					<span class="event-date">{{ event.formatted_date }}</span>
 					<# if ( 'meetup' === event.type ) { #>
-						<span class="event-time">
-							{{ event.user_formatted_time }} {{ event.timeZoneAbbreviation }}
-						</span>
+						<span class="event-time">{{ event.formatted_time }}</span>
 					<# } #>
 				</div>
 			</li>
